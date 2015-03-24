@@ -5,6 +5,10 @@ nav[role="navigation"] ul {
     list-style-type: none;
     margin: 0 20px 0 0;
     padding: 0 8px 4px 8px;
+    @media screen and (min-width: 1024px) {
+        max-width: 100%;
+        margin-bottom: 10%;
+    }
 }
 
 nav[role="navigation"] ul li {
@@ -22,6 +26,12 @@ nav[role="navigation"] a {
         transition: color 300ms linear;
     }
 }
+
+main[role="main"] {
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
  .place-mark {
      fill: $logo-color;
  }

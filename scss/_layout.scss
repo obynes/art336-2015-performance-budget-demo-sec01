@@ -27,12 +27,30 @@ header[role="banner"], main[role="main"] {
         max-width: 1024px;
         width: 100%;
     }
+    
     header[role="banner"], main[role="main"] {
         max-width: 1024px;
     }
+    
     nav[role="navigation"] {
         position: static;
         width: 100%;
+    }
+    
+    header[role="banner"] { 
+        box-sizing: border-box;
+        float: left;
+        padding-right: 40px;
+        width: 40%;    
+    }
+    
+    main[role="main"] {
+        float: right;
+        width: 60%;
+    }
+    
+    footer[role="contentinfo"] {
+        float: left;   
     }
 }
 
